@@ -19,3 +19,7 @@ INSERT INTO characters (id, name, species, motto, series_id, author_id) VALUES
 (6, "Snape", "Wizard", "Snape, Snape, Severus Snape", 1, 1),
 (7, "Hagrid", "Wizard", "Spiders are friends", 1, 1),
 (8, "Malfoy", "Wizard", "Ugh, muggles", 1, 1);
+
+INSERT INTO subgenres (id, name) VALUES
+(1, "Magic"),
+(2, "Science");
