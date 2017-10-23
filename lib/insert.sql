@@ -27,3 +27,21 @@ INSERT INTO subgenres (id, name) VALUES
 INSERT INTO authors (id, name) VALUES
 (1, "JK Rowling"),
 (2, "Brian Cox");
+
+INSERT INTO character_books (id, book_id, character_id) VALUES
+(1, 1, 1),
+(2, 2, 1),
+(3, 1, 2),
+(4, 2, 1),
+(5, 3, 2),
+(6, 3, 3),
+(7, 4, 2),
+(8, 4, 1),
+(9, 3, 1),
+(10, 6, 3),
+(11, 2, 4),
+(12, 9, 2),
+(13, 9, 4),
+(14, 3, 5),
+(15, 7, 2),
+(16, 8, 2);
